@@ -1,0 +1,45 @@
+{
+   "teamMembers": [
+     {
+       "name": "John Doe",
+       "position": "Founder & CEO",
+       "email": "john.doe@example.com"
+     },
+     {
+       "name": "Jane Smith",
+       "position": "Head of Marketing",
+       "email": "jane.smith@example.com"
+     },
+     {
+       "name": "Alex Johnson",
+       "position": "Lead Developer",
+       "email": "alex.johnson@example.com"
+     },
+     {
+       "name": "Emily Davis",
+       "position": "Design Lead",
+       "email": "emily.davis@example.com"
+     },
+     {
+      "name": "John Doe",
+      "position": "Founder & CEO",
+      "email": "john.doe@example.com"
+    },
+    {
+      "name": "Jane Smith",
+      "position": "Head of Marketing",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "name": "Alex Johnson",
+      "position": "Lead Developer",
+      "email": "alex.johnson@example.com"
+    },
+    {
+      "name": "Emily Davis",
+      "position": "Design Lead",
+      "email": "emily.davis@example.com"
+    }
+   ]
+ }
+ 

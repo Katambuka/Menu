@@ -1,0 +1,112 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Art of Baking: Tips for Perfect Pastries",
+      "category": "Baking",
+      "author": "Jane Doe",
+      "content": "Learn the secrets to baking perfect pastries. This article covers essential tips and techniques for creating delicious baked goods.",
+      "image": "baking_tips.jpg",
+      "published_at": "2023-08-15"
+    },
+    {
+      "id": 2,
+      "title": "Healthy Salad Recipes for a Nutritious Diet",
+      "category": "Salads",
+      "author": "John Smith",
+      "content": "Explore a variety of healthy salad recipes packed with nutrients. Discover easy-to-make salads that are both delicious and good for you.",
+      "image": "salad_recipes.jpg",
+      "published_at": "2023-07-20"
+    },
+    {
+      "id": 3,
+      "title": "Mastering the Art of Sushi Making",
+      "category": "Sushi",
+      "author": "Emily Johnson",
+      "content": "Step-by-step guide to mastering the art of sushi making. Learn the basics of preparing sushi at home like a professional chef.",
+      "image": "sushi_making.jpg",
+      "published_at": "2023-09-05"
+    },
+    {
+      "id": 4,
+      "title": "Exploring Exotic Flavors: A Journey through Spices",
+      "category": "Cuisine",
+      "author": "Michael Brown",
+      "content": "Discover a world of exotic flavors through a journey exploring various spices. Dive into different cuisines and spice blends to enhance your culinary experiences.",
+      "image": "exotic_spices.jpg",
+      "published_at": "2023-10-10"
+    },
+    {
+      "id": 1,
+      "title": "The Art of Baking: Tips for Perfect Pastries",
+      "category": "Baking",
+      "author": "Jane Doe",
+      "content": "Learn the secrets to baking perfect pastries. This article covers essential tips and techniques for creating delicious baked goods.",
+      "image": "baking_tips.jpg",
+      "published_at": "2023-08-15"
+    },
+    {
+      "id": 2,
+      "title": "Healthy Salad Recipes for a Nutritious Diet",
+      "category": "Salads",
+      "author": "John Smith",
+      "content": "Explore a variety of healthy salad recipes packed with nutrients. Discover easy-to-make salads that are both delicious and good for you.",
+      "image": "salad_recipes.jpg",
+      "published_at": "2023-07-20"
+    },
+    {
+      "id": 3,
+      "title": "Mastering the Art of Sushi Making",
+      "category": "Sushi",
+      "author": "Emily Johnson",
+      "content": "Step-by-step guide to mastering the art of sushi making. Learn the basics of preparing sushi at home like a professional chef.",
+      "image": "sushi_making.jpg",
+      "published_at": "2023-09-05"
+    },
+    {
+      "id": 4,
+      "title": "Exploring Exotic Flavors: A Journey through Spices",
+      "category": "Cuisine",
+      "author": "Michael Brown",
+      "content": "Discover a world of exotic flavors through a journey exploring various spices. Dive into different cuisines and spice blends to enhance your culinary experiences.",
+      "image": "exotic_spices.jpg",
+      "published_at": "2023-10-10"
+    },
+    {
+      "id": 1,
+      "title": "The Art of Baking: Tips for Perfect Pastries",
+      "category": "Baking",
+      "author": "Jane Doe",
+      "content": "Learn the secrets to baking perfect pastries. This article covers essential tips and techniques for creating delicious baked goods.",
+      "image": "baking_tips.jpg",
+      "published_at": "2023-08-15"
+    },
+    {
+      "id": 2,
+      "title": "Healthy Salad Recipes for a Nutritious Diet",
+      "category": "Salads",
+      "author": "John Smith",
+      "content": "Explore a variety of healthy salad recipes packed with nutrients. Discover easy-to-make salads that are both delicious and good for you.",
+      "image": "salad_recipes.jpg",
+      "published_at": "2023-07-20"
+    },
+    {
+      "id": 3,
+      "title": "Mastering the Art of Sushi Making",
+      "category": "Sushi",
+      "author": "Emily Johnson",
+      "content": "Step-by-step guide to mastering the art of sushi making. Learn the basics of preparing sushi at home like a professional chef.",
+      "image": "sushi_making.jpg",
+      "published_at": "2023-09-05"
+    },
+    {
+      "id": 4,
+      "title": "Exploring Exotic Flavors: A Journey through Spices",
+      "category": "Cuisine",
+      "author": "Michael Brown",
+      "content": "Discover a world of exotic flavors through a journey exploring various spices. Dive into different cuisines and spice blends to enhance your culinary experiences.",
+      "image": "exotic_spices.jpg",
+      "published_at": "2023-10-10"
+    }
+  ]
+}
