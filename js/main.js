@@ -1,10 +1,8 @@
-
 const appId = '22fda62c';
-const apiKey = '1587722c51c833babab70451fc007053'; // Use one of the keys
+const apiKey = '1587722c51c833babab70451fc007053';
 
-// Function to fetch recipes from the API
 async function fetchRecipes(query) {
-  const endpoint = 'https://api.edamam.com/search'; // Edamam API endpoint for recipe search
+  const endpoint = 'https://api.edamam.com/search';
 
   try {
     const response = await fetch(`${endpoint}?q=${query}&app_id=${appId}&app_key=${apiKey}`);
@@ -14,7 +12,7 @@ async function fetchRecipes(query) {
     }
 
     const data = await response.json();
-    displayRecipes(data.hits); // Call function to display recipes from the 'hits' array
+    displayRecipes(data.hits);
   } catch (error) {
     console.error('Error fetching data:', error);
   }
@@ -25,14 +23,14 @@ function displayRecipes(recipes) {
   recipeList.classList.add('recipe-list');
 
   recipes.forEach((recipeItem) => {
-    const recipe = recipeItem.recipe; // Access the 'recipe' object within each item
+    const recipe = recipeItem.recipe;
 
     const recipeCard = document.createElement('div');
     recipeCard.classList.add('recipe-card');
 
     const recipeImage = document.createElement('img');
-    recipeImage.src = recipe.image; // Access the 'image' property from the 'recipe' object
-    recipeImage.alt = recipe.label; // Use 'label' for alt text
+    recipeImage.src = recipe.image;
+    recipeImage.alt = recipe.label;
     recipeImage.classList.add('recipe-image');
 
     const recipeDetails = document.createElement('div');
@@ -40,11 +38,11 @@ function displayRecipes(recipes) {
 
     const recipeTitle = document.createElement('h3');
     recipeTitle.classList.add('recipe-title');
-    recipeTitle.textContent = recipe.label; // Use 'label' property for title
+    recipeTitle.textContent = recipe.label;
 
     const recipeDescription = document.createElement('p');
     recipeDescription.classList.add('recipe-description');
-    recipeDescription.textContent = recipe.source; // Use 'source' property for description
+    recipeDescription.textContent = recipe.source;
 
     recipeDetails.appendChild(recipeTitle);
     recipeDetails.appendChild(recipeDescription);
@@ -60,7 +58,6 @@ function displayRecipes(recipes) {
 }
 
 window.addEventListener('load', () => {
-  // Fetch recipes for different queries and display them in the recipe container
   fetchRecipes('pasta');
   fetchRecipes('salad');
   fetchRecipes('dessert');
