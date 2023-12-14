@@ -1,9 +1,9 @@
-// about.js
+
 
 // Function to fetch team members' data from a JSON file and populate the table
 async function fetchAndDisplayTeamMembers() {
    try {
-       const response = await fetch('/json/team.json'); // Replace with the correct path to your JSON file
+       const response = await fetch('json/team.json'); // Replace with the correct path to your JSON file
        if (!response.ok) {
            throw new Error('Network response was not ok.');
        }

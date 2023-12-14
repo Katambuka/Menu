@@ -1,25 +1,3 @@
-/*const apiKey = "f479d71a3975454c9ecb1defe8311fd1";
-
-
-async function fetchRecipes(query) {
-  const endpoint = `https://api.spoonacular.com/recipes/findByIngredients?apiKey=${apiKey}&ingredients=${query}`;
-
-  try {
-    const response = await fetch(endpoint);
-
-    if (!response.ok) {
-      throw new Error("Network response was not ok.");
-    }
-
-    const data = await response.json();
-    displayRecipes(data);
-  } catch (error) {
-    console.error("Error fetching data:", error);
-  }
-}
-*/
-
-
 
 const appId = '22fda62c';
 const apiKey = '1587722c51c833babab70451fc007053'; // Use one of the keys

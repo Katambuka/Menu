@@ -1,7 +1,7 @@
 // Function to fetch articles from the JSON file
 export async function fetchArticles() {
   try {
-      const response = await fetch('/json/recipe.json');
+      const response = await fetch('json/recipe.json');
       if (!response.ok) {
           throw new Error('Network response was not ok.');
       }
